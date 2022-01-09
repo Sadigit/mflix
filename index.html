@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mFlix | HD Movies Free </title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: rgb(14, 14, 14);
+			text-align: center;
+			color: white;
+
+		}
+		.nav{
+			position: sticky;
+			top: 0px;
+			background: linear-gradient(to top,rgb(12,12,12),rgb(13,13,13));
+			text-align: center;
+			color: rgb(255,60,60);
+			font-weight: 600;
+			border-bottom: 3.5px solid transparent;
+			animation: colorchange;
+			animation-duration: 7s;
+			animation-iteration-count: infinite;
+			
+		}
+		@keyframes colorchange{
+			0%{border-bottom: 3.5px solid powderblue;}
+			20%{border-bottom: 3.5px solid blue;}
+			30%{border-bottom: 3.5px solid aqua;}
+			40%{border-bottom: 3.5px solid violet;}
+			60%{border-bottom: 3.5px solid tomato;}
+			80%{border-bottom: 3.5px solid orange;}
+			100%{border-bottom: 3.5px solid skyblue;}
+		}
+
+		
+			
+		
+		
+
+		.trending{
+
+			width: 100%;
+			display: inline-flex;
+			flex-wrap: wrap;
+
+		}
+		img{
+
+			margin-left: 5px;
+			margin-right: 5px;
+			margin-top: 5px;
+			width: 300px;
+			height: 70%;
+		}
+		.movies{
+			width: 100;
+			display: inline-flex;
+			flex-wrap: wrap;
+
+
+		}
+		.movie img{
+			padding-left: 35px;
+
+			width: 20%;
+			height: 10%;
+		}
+		.all{
+			display: block;
+		}
+		
+	</style>
+</head>
+<body>
+	<div onclick="goto()" class="nav">
+		<h1 id="logo">mFlix</h1>
+		
+		
+		
+		
+
+	</div>
+	<h1>Trending</h1>
+		<hr></hr>
+	<div class="trending">
+		
+		<a href="watch/nowayhome/index.html"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIF.hIO2P2ZCO1GbWS%252f9zG2vIA%26pid%3DApi&f=1"></a>
+		<a href="watch/venom/index.html"><img onclick="venom()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2j1wkp1bavyfs.cloudfront.net%2Fimage-assets%2F580489%2FfAPjhDTPPob3CorpsrCXr2bXn4N.jpg%3Fd%3D360x540%26q%3D60&f=1&nofb=1"></a>
+		
+		<a href="watch/marvel/index.html"><img onclick="cap()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.6qpVJwvjH9StXx-bBtICwgHaK9%26pid%3DApi&f=1"></a>
+		<a href="watch/black/index.html"><img onclick="black()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yXwRghAjNfwFLfHkGu2HvgHaK9%26pid%3DApi&f=1"></a>
+	</div>
+	<h1>Movies</h1>
+	<hr></hr>
+	<div class="movies">
+		<a href="watch/homecoming/index.html"><img onclick="coming()" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.comicbook.com%2F2017%2F10%2Fspider-man-homecoming-movie-poster-marvel-cinematic-universe-1038913.jpg&f=1&nofb=1"></a>
+		
+
+		<a href="watch/thor/index.html"><img onclick="thor()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-ZARq4RVzkdw%2FWfowtLiYg-I%2FAAAAAAAA5s4%2Fqloi2wkGF1AKO2dk2NW7lagOLX5Qo7_rQCEwYBhgL%2Fs1600%2FMarvel%2525E2%252580%252599s%252BThor%252BRagnarok%252BIMAX%252BTheatrical%252BOne%252BSheet%252BMovie%252BPoster%252B0.jpg&f=1&nofb=1"></a>
+		
+		<a href="watch/galaxy/index.html"><img onclick="galaxy()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZoCn0IEmFr3EFDiNSqzT5wHaK-%26pid%3DApi&f=1"></a>
+		
+		<a href="watch/panther/index.html"><img onclick="panther()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.ab8lbMsWgvXk04aWZHtuCgHaK9%26pid%3DApi&f=1"></a>
+		
+		<a href="watch/civil/index.html"><img onclick="civil()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.IpQaU8k0u0B-rfycVT6_gwHaK4%26pid%3DApi&f=1"></a>
+		
+		<a href="watch/dead/index.html"><img onclick="dead()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.am4yGBbx2S_qcxc0tZy2TgHaJ4%26pid%3DApi&f=1"></a>
+		
+
+		<a href="watch/verse/index.html"><img onclick="verse()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vY8kk33S-OyV7UfOlU6Y-AHaKT%26pid%3DApi&f=1"></a>
+		
+
+		<a href="watch/farfrom/index.html"><img onclick="far()" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.g_Lu-oBJgg2c-HLBBtd84QHaKk%26pid%3DApi&f=1"></a>
+	</div>
+	
+	
+
+</body>
+<script type="text/javascript">
+	
+
+	
+</script>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>black widow</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: rgb(14, 14, 14);
+			text-align: center;
+			color: white;
+
+		}
+		iframe{
+			width: 98%;
+			height: 500px;
+			margin-left: 1%;
+		}
+		.nav{
+			position: sticky;
+			top: 0px;
+			background: linear-gradient(to top,rgb(12,12,12),rgb(13,13,13));
+			text-align: center;
+			color: rgb(255,60,60);
+			font-weight: 600;
+			border-bottom: 3.5px solid transparent;
+			animation: colorchange;
+			animation-duration: 7s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes colorchange{
+			0%{border-bottom: 3.5px solid powderblue;}
+			20%{border-bottom: 3.5px solid blue;}
+			30%{border-bottom: 3.5px solid aqua;}
+			40%{border-bottom: 3.5px solid violet;}
+			60%{border-bottom: 3.5px solid tomato;}
+			80%{border-bottom: 3.5px solid orange;}
+			100%{border-bottom: 3.5px solid skyblue;}
+		}
+		</style>
+
+
+</head>
+<body>
+		<div onclick="goto()" class="nav">
+		<h1 id="logo">mFlix</h1>
+
+	</div>
+
+	<iframe src="https://www.2embed.ru/embed/imdb/movie?id=tt2015381"></iframe>
+	<h1>Guardians of the Galaxy</h1>
+</body>
+</html>
